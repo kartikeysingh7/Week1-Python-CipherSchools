@@ -1,0 +1,3 @@
+print("hello \" world \" world")
+# either if we use  back slash before double quotes no syntax error will come
+# this is also called escape sequence
