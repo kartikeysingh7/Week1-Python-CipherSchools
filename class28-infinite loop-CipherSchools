@@ -1,0 +1,5 @@
+# infinite loop
+while True:
+    print("hello world")
+Footer
+© 2022 GitHub, Inc.
