@@ -1,0 +1,11 @@
+# when you want to specify data type you can do it by casting
+x= str(10)
+y=int(10)
+z=float(10)
+print(x,y,z)
+
+#get the type of fuction
+x= 20
+y = "john"
+print(type(x))
+print(type(y))
