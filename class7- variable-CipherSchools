@@ -1,0 +1,81 @@
+# when you want to specify data type you can do it by casting
+x= str(10)
+y=int(10)
+z=float(10)
+print(x,y,z)
+
+#get the type of fuction
+x= 20
+y = "john"
+print(type(x))
+print(type(y))
+
+# variable in python is case sensitive
+a=30
+A=50
+print(a)
+print(A)
+# variable names
+myname = "harsh"
+print (myname)
+my_name= "harsh"
+_my_name="harsh"
+myName="harsh"
+myname="john"
+print(myName)
+myname3="harsh"
+print(myname3)
+#invalid
+##2myname="peter"
+##print(2myname)
+
+#invalid
+##my-name="harsh"
+##print(my-name)
+
+#invalid
+##my name ="harsh"
+##print(my name)
+#myfirstname="harsh"
+
+#Camel case
+
+myFirstName="harsh"
+
+#Pascal case
+
+MyFirstName="harsh"
+
+#Snake case
+
+my_first_name="harsh"
+# you must follow only one case throughout the program
+# never mix the thing
+# many values to multiple variables
+
+x,y,z=10,20,30
+print(x,y,z)
+# Assign one value to multiple variables
+
+x=y=z=10
+print(x,y,z)
+#output variables
+
+x="my"
+y="name"
+z="is"
+print(x,y,z)
+print(x+y+z)
+x = 10
+#y =20
+print(x+y)
+
+
+# GLOBAL VARIABLES
+# variable that are created outside the function
+# it can be used inside as well as outside the funtion
+
+x = str(10) # global variable #outside garden
+def myfunc(): # campus
+    print("the vaue is " + x)
+    myfunc()
