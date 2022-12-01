@@ -1,0 +1,5 @@
+print("hello world")
+print("hello 'world' ")
+#we can use single quotes inside double quotes and double qoutes inside single quotes
+print("hello"" world")
+# we can't use double quotes inside double quotes and single quotes inside single quotes
